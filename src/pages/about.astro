@@ -1,6 +1,5 @@
 ---
 import Layout from "@layouts/Layout.astro";
-// import Card from '@components/Card.astro';
 
 const pageTitle = "About Me";
 
@@ -52,7 +51,6 @@ const skillColor = "navy";
       </ul>
       <p>My skills are:</p>
       <ul>
-        {skills.map((skill) => <li>{skill}</li>)}
         {skills.map((skill) => <li class="skill">{skill}</li>)}
       </ul>
 
