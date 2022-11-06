@@ -1,12 +1,14 @@
 ---
 import Layout from "@layouts/Layout.astro";
 // import Card from '@components/Card.astro';
+const pageTitle = "Welcome to Astro"
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={pageTitle}>
   <main>
-    <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+    <h1>{pageTitle}</h1>
   </main>
+  
 </Layout>
 
 <style>
