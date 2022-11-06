@@ -8,3 +8,5 @@
 - [Netlify](https://app.netlify.com/sites/iridescent-marshmallow-9079c1)
 - [Deployed](https://iridescent-marshmallow-9079c1.netlify.app)
 
+
+Copy SaveAs to create `about` and `blog` pages.
