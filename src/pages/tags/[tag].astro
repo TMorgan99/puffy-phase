@@ -32,17 +32,11 @@ const pageTitle = `Articles containing ${tag}`;
 
 <Layout {pageTitle}>
   <p>Posts tagged with {tag}</p>
-
   <ul>
     {
       posts.map((post) => (
         <BlogList url={post.url} title={post.frontmatter.title} />
       ))
     }
-  </ul>
-
-  <h2>Other topics of interest</h2>
-  <ul>
-    {tags.map((tag) => <BlogList url={tag} title={`about: ${tag}`} />)}
   </ul>
 </Layout>
